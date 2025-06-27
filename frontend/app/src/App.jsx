@@ -57,6 +57,8 @@ const fetchBooks= async()=>{
         <div>
           <p>Title: {book.bookTitle}</p>
           <p>Release Year: {book.releaseYear} </p>
+          <input type="text" placeholder='new title?' />
+          <button>edit title</button>
         </div>
       ))}
     </div>
